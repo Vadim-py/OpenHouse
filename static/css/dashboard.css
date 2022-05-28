@@ -1,0 +1,60 @@
+.card{
+    width: 12rem; 
+    border: 0;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    margin-top: 10%;
+}
+.he{
+    margin-left:5%; 
+    margin-top: 5%;
+}
+
+.alert{
+     margin-left: 7%;
+     background-color: #f5f5f5;
+     width: 85%;
+     border: 0;
+     border-radius: 10px;
+     color: #000;
+}
+
+.testtex{
+    color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --var-bgcolor: #000;
+        --var-fontcolor: #eee;
+      }
+    .card{
+        background-color: #1a1e1b;
+        color: var(--var-fontcolor);
+    }
+    .alert{
+        background-color: #1a1e1b;
+        color: var(--var-fontcolor);
+    }
+}
+
+
+@media screen and (max-width:1000px){
+    .he{
+        margin-top: 10%;
+        margin-left: 5%;
+    } 
+    .card{
+        width: 10rem;
+        margin: 0 auto;
+        display: block;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+    .alert{
+        margin-left: 7%;
+         width: 85%;
+         border: 0;
+         border-radius: 10px;
+    }
+}

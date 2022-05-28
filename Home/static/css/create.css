@@ -1,0 +1,15 @@
+.input-group{
+    width: 50%;
+    margin-left: 5%;
+}
+.form-check{
+    margin-left: 5%;
+}
+
+
+@media screen and (max-width:1000px){
+    .input-group{
+        width: 90%;
+        margin-left: 5%;
+    }    
+}

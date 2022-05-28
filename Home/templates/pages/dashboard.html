@@ -1,0 +1,64 @@
+{% extends '../base.html' %}
+
+{% block content %}
+
+<nav class="navbar bg">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">OpenHouse 🏠</span>
+    </div>
+  </nav>
+  
+  <h2 class="he">Dashboard 🎛️</h2>
+<div class="container">
+   <div class="row">
+    <div class="col-auto">
+  <div class="card">
+    <div class="card-body">
+      Temperature 🌡
+      <h1>{{ temp }}°C</h1>
+    </div>
+  </div>
+</div>
+<div class="col-auto">
+  <div class="card">
+    <div class="card-body">
+        Air humidity 💧
+      <h1>{{ humidity }}%</h1>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-auto">
+        <div class="card">
+          <div class="card-body">
+            Lamp 💡
+            <h1>OFF</h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="card">
+          <div class="card-body">
+              Socket 🔌
+            <h1>ON</h1>
+          </div>
+        </div>
+</div>
+</div>
+<div class="list-dev">
+<h2 class="he">All devices 🎩</h2>
+
+<div class="alert alert" role="alert">
+    Smart kettle 🫖
+  </div>
+
+  <div class="alert alert" role="alert">
+    RGB light 🌈
+  </div>
+
+  <div class="alert alert" role="alert">
+    Musical column 🔊
+  </div>
+</div>
+{% endblock %}
