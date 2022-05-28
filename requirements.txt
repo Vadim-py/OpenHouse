@@ -1,0 +1,2 @@
+pyserial==3.5
+django==4.0.4
