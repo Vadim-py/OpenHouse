@@ -1,4 +1,4 @@
-<a style='font-size:32px;'>OpenHouse 🏠</a>
+# OpenHouse 🏠
 
 ## Overview 👀
 The mission of my project is to make the smart home accessible to everyone 
